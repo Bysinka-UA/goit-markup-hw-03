@@ -200,9 +200,12 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+/* team */
+
 .team-page {
   text-transform: capitalize;
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 
 .taem-page-title {
@@ -212,10 +215,18 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
-background-color: #FFFFFF
+ background-color: #FFFFFF;
+ 
+
 }
 
 .team-title {
