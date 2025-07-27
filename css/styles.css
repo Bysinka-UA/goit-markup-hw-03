@@ -167,16 +167,23 @@ align-items: center;
 
 /* benefits */
 
+.visually-hidden {
+
+}
+
 .container-benefits {
-  width: calc((100%-3*24px)/ 4);
+  padding: 120px 0;
+}
+
+.benefits-item {
+ width: calc((100%-3*24px)/ 4);
 }
 
 .benefits-list {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 120px 0;
-  }
+}
 
 .benefits-title {
 font-weight: 500;
