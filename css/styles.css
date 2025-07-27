@@ -120,10 +120,13 @@ color: #434455;
   padding: 188px 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-container {
   display: block;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hero-title {
@@ -134,6 +137,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 max-width: 496px;
+margin-bottom: 48px;
 }
 
 .button-title {
@@ -161,12 +165,26 @@ align-items: center;
   background: #404bbf;
 }
 
+/* benefits */
+
+.container-benefits {
+  width: calc((100%-3*24px)/ 4);
+}
+
+.benefits-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 120px 0;
+  }
+
 .benefits-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .benefits-description {
