@@ -167,12 +167,11 @@ align-items: center;
 
 /* benefits */
 
-.visually-hidden {
-
+.benefits {
+  padding: 120px 0;
 }
 
-.container-benefits {
-  padding: 120px 0;
+.visually-hidden {
 }
 
 .benefits-item {
