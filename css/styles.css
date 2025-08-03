@@ -123,12 +123,6 @@ color: #434455;
   justify-content: center;
 }
 
-.hero-container {
-  display: block;
-  align-items: center;
-  flex-direction: column;
-}
-
 .hero-title {
 font-weight: 700;
 font-size: 56px;
@@ -137,6 +131,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 max-width: 496px;
+margin:  0 auto;
 margin-bottom: 48px;
 }
 
@@ -153,6 +148,7 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
+margin: 0 auto;
 }
 
 .button-container {
